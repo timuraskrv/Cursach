@@ -1,0 +1,49 @@
+.card-link .card {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .card-link:hover .card {
+    box-shadow: 0 0 15px #00838f; /* добавляем тень при наведении на карточку */
+    transition: box-shadow 0.2s ease-out; /* добавляем плавный переход */
+  }
+  
+  .carousel-inner .prevImg {
+    transition: transform 0.2s ease-out; /* Добавление плавного перехода */
+  }
+  
+  .carousel-inner .prevImg:hover {
+    transform: scale(1.1); /* Изменение масштаба при наведении */
+    
+  }
+  
+  .header-h1 h1 {
+      position: relative;
+      padding-bottom: .5rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: #00838f;
+    }
+  .header-h1 h1::before {
+      content: "";
+      position: absolute;
+      border-bottom: 2px solid #00838f;
+      bottom: .25rem;
+      left: 50%;
+      width: 25%;
+      transform: translateX(-50%);
+    }
+  .header-h1 h1::after {
+      content: "";
+      position: absolute;
+      border-bottom: 2px solid #00838f;
+      bottom: 0;
+      left: 50%;
+      width: 12%;
+      transform: translateX(-50%);
+    }
+  
+
+
+    
