@@ -1,1 +1,1 @@
-# [Website link](http://w92507ns.beteg.tech/base.html){:target="_blank"}
+# [Website link](http://w92507ns.beget.tech/base.html)
